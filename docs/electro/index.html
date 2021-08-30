@@ -4,38 +4,23 @@
     <title>Справка по утилитам Electro от Exetum</title>
     <meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-    
+    <script src="scr.js"></script>
     
 </head>
 
 <body>
-    <div class="b-container">
-        Sample Text
-        <a href="javascript:PopUpShow()">Show popup</a>
-    </div>
-    <div class="b-popup" id="popup1">
-        <div class="b-popup-content">
-            Text in Popup
-        <a href="javascript:PopUpHide()">Hide popup</a>
+    <div class="page-wrapper">
+        <a class="btn trigger" href="javascript:;">Click Me!</a>
+      </div>
+      <div class="modal-wrapper">
+        <div class="modal">
+          <div class="head">
+            <a class="btn-close trigger" href="javascript:;"></a>
+          </div>
+          <div class="content">
+          </div>
         </div>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            //Скрыть PopUp при загрузке страницы    
-            PopUpHide();
-        });
-        //Функция отображения PopUp
-        function PopUpShow(){
-            $("#popup1").show(); 
-        }
-        //Функция скрытия PopUp
-        function PopUpHide(){
-            $("#popup1").hide();
-        }
-    </script>
-
+      </div>
 
 </body>
 
