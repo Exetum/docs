@@ -115,5 +115,5 @@ html, body{
   
   .content{
     padding:5%;
-    overflow: auto;
+    overflow-y: scroll;
   }
