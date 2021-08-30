@@ -47,16 +47,18 @@ html, body{
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+    overflow: auto;
   }
   
   .modal-wrapper.open{
     opacity:1;
     visibility:visible;
+    overflow: auto;
   }
   
   .modal{
     width:600px;
-    height:400px;
+    height:fit-content;
     display:block;
     margin:50% 0 0 -300px;
     position:relative;
@@ -115,5 +117,5 @@ html, body{
   
   .content{
     padding:5%;
-    overflow-y: scroll;
+    
   }
