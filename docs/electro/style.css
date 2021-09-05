@@ -21,7 +21,8 @@ html, body{
   
   a.btn{
     width:150px;
-    display:block;
+    display:flex;
+    flex-direction: column;
     margin:-25px 0 0 -75px;
     padding:1em 0;
     position:absolute;
@@ -119,3 +120,16 @@ html, body{
     padding:5%;
     
   }
+
+
+  .btnsdiv{
+
+    width:150px;
+    display:block;
+    margin:-25px 0 0 -75px;
+    padding:1em 0;
+    position:absolute;
+
+
+  }
+
