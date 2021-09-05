@@ -5,3 +5,13 @@ $( document ).ready(function() {
        return false;
     });
   });
+
+  var button = document.querySelector("btn2");
+  button.addEventListener("click", function() {
+    console.log("Нажата кнопка 2");
+  });
+
+  var button = document.querySelector("btn1");
+  button.addEventListener("click", function() {
+    console.log("Нажата кнопка 1");
+  });
