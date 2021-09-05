@@ -14,6 +14,11 @@
       <div class="btnsdiv">
         <a class="btn trigger" id="btn1" href="javascript:;">Нумерация листов</a>
         <a class="btn trigger" id="btn2" href="javascript:;">Генерирование кабельного журнала</a>
+
+        
+
+
+
       </div>
     </div>
       <div class="modal-wrapper">
@@ -21,7 +26,7 @@
           <div class="head">
             <a class="btn-close trigger" href="javascript:;"></a>
           </div>
-          <div class="content">
+          <div class="content" id="ct1">
               <h3>Генерирование кабельного журнала</h3>
               <p>Для вызова применяется команда КАБЖУРНАЛСПОЛЯМИ</p>
               <p>Программа генерирования кабельного журнала обрабатывает блоки, содержащие следующие 7 обязательных атрибута:</p>
@@ -37,6 +42,13 @@
           </div>
         </div>
       </div>
+
+     
+      <script>
+
+        btn1.onclick = function(){alert(document.querySelector("#ct1").innerHTML);};
+        
+        </script>
 
 </body>
 
