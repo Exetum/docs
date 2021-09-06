@@ -132,3 +132,6 @@ html, body{
 
   }
 
+  .raw_lines {
+    display: none;
+}
