@@ -33,6 +33,12 @@ html, body{
     color:#fff;
     border-radius:5px;
     background:rgba(217,67,86,1);
+    transition: all 0.25s ease-in-out;
+  }
+
+  a.btn:hover {
+    background:rgb(136, 110, 114);
+    
   }
   
   .modal-wrapper{
@@ -135,3 +141,55 @@ html, body{
   .raw_lines {
     display: none;
 }
+.cntdiv {
+  position: fixed; /* or absolute */
+ 
+    
+
+      left: 50%;
+  
+  /* float:left; */
+  /* margin-left: 100px; */
+  background-color: rgba(255,255,255, 0.7); /* Цвет фона */
+  padding: 5px; /* Поля вокруг текста */
+  /* opacity: 0.7;  */
+  filter: alpha(Opacity=70); /* Прозрачность в IE */
+  color: #000; /* Цвет текста */
+  width: 800px;
+  margin: 0 0 0 -400px;
+  border-radius: 15px;
+  /* overflow: auto; */
+
+ 
+
+}
+
+/* #cnt {
+  
+} */
+
+.foo {
+ 
+    /* position: absolute; */
+    /* background: url(onload.jpg) center no-repeat; */
+    /* width: 100%; */
+    /* height: 100%; */
+    background-size: cover;
+    /*Устанавливаем время и имя анимации*/
+    -webkit-animation-duration: 5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+   
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0; margin-left: -50%;}
+  100% {opacity: 1; margin-left: 0%;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0; margin-left: -50%;}
+  100% {opacity: 1; margin-left: 0%;}
+  }
