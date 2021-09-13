@@ -191,5 +191,6 @@ html, body{
   }
   @keyframes fadeIn {
   0% {opacity: 0; margin-left: -50%;}
+  80% {opacity: 0.5; margin-left: 10%;}
   100% {opacity: 1; margin-left: 0%;}
   }
